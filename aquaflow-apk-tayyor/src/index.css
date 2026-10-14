@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Oson va Katta Shrift Rejimi (Katta yoshdagilar va qulaylik uchun) */
+html.large-text-mode {
+  font-size: 17px;
+}
+
+html.large-text-mode button,
+html.large-text-mode input,
+html.large-text-mode select {
+  font-size: 1.05rem;
+}
+
+html.large-text-mode .text-xs {
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
+}
+
+html.large-text-mode .text-\[11px\],
+html.large-text-mode .text-\[10px\] {
+  font-size: 0.8rem !important;
+}

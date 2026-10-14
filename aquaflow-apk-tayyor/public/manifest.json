@@ -1,0 +1,50 @@
+{
+  "id": "/",
+  "name": "AquaFlow - Suv Yetkazib Berish Tizimi",
+  "short_name": "AquaFlow",
+  "description": "AquaFlow - Suv buyurtma berish, haydovchi, operator va ombor boshqaruv mobil ilovasi",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0284c7",
+  "background_color": "#0284c7",
+  "categories": ["business", "productivity", "utilities"],
+  "lang": "uz",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Suv Buyurtma Qilish",
+      "short_name": "Buyurtma",
+      "description": "Tezkor suv buyurtmasi berish",
+      "url": "/?action=order",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Haydovchi Kabineti",
+      "short_name": "Haydovchi",
+      "description": "Marshrut va yetkazish",
+      "url": "/?role=driver",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

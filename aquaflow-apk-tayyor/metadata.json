@@ -1,0 +1,10 @@
+{
+  "name": "Remix AquaFlow - Suv Yetkazib Berish Boshqaruv Tizimi",
+  "description": "Suv buyurtmalarini qabul qilish, ombor va bo\u0027sh idishlar zaxirasini boshqarish, haydovchilarni GPS bilan kuzatish, elektron imzo va hisobotlar platformasi.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
